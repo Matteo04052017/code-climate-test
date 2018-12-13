@@ -23,6 +23,7 @@ class CrazyApiConsumer(object):
 		self.value = value
 		
 	def post(self):
+		z = 10000
 		response = crazy_posting_api(self.value)
 		return not bool(response)
 	
