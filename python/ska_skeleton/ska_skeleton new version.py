@@ -18,6 +18,12 @@ def crazy_posting_api(value):
 		return 0
 	return 1
 	
+	
+def crazy_posting_api2(value, value1, value2, value3, value4, value5, value6):
+	if value:
+		return 0
+	return 1
+	
 class CrazyApiConsumer(object):
 	def __init__(self, value):
 		self.value = value
